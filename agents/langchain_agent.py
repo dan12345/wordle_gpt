@@ -1,0 +1,1 @@
+#uses the native lang chain agent to play, using the thought->tool->observation chain

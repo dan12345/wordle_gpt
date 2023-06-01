@@ -1,0 +1,1 @@
+#an agent where a critic is used to evaluate the quality of a guess and allows to change the guess before finalizing it
