@@ -16,9 +16,8 @@ class Game:
         self.round_num = 0
         self.max_rounds = max_rounds
 
-    @staticmethod
-    def start_game():
-        return "I thought of a 5-letter word. Try to guess it!"
+    def start_game(self,):
+        return f"I thought of a 5-letter word. Try to guess it! The solution is {self.solution} but I'm not gonna tell you!"
 
     def evaluate_guess(self, guess):
         if guess not in self.valid_guesses_list:
